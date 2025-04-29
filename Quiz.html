@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quiz.css">
+    <title>Quizes</title>
+</head>
+<body>
+
+    <nav class="navbar">
+    <div class="logo">
+        <img src="./img/jeemlogo.png" alt="Logo">
+    </div>
+
+    <div class="burger" id="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+
+    <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Homepage</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Project.html">Projects</a></li>
+        <li><a href="Quiz.html">Quizzes</a></li>
+        <li><a href="index.html">Contact</a></li>
+    </ul>
+</nav>
+    
+    <div class="gly">
+        <h1>QUIZES | LABORATORY | EXAMS</h1>
+    <div class="gallery">
+        <div class="image" onclick="openPopup('./Quizes/Quiz1.jpg', 'Quiz1')">
+            <img src="./Quizes/Quiz1.jpg" alt="Image 1">
+        </div>
+        <div class="image" onclick="openPopup('./Quizes/POST-TEST 2.jpg', 'POST-TEST2')">
+            <img src="./Quizes/POST-TEST 2.jpg" alt="Image 2">
+        </div>
+        <div class="image" onclick="openPopup('./Quizes/POSTEST OR QUIZ 1.jpg', 'POSTEST OR QUIZ 1')">
+            <img src="./Quizes/POSTEST OR QUIZ 1.jpg" alt="Image 3">
+        </div>
+        <div class="image" onclick="openPopup('./Quizes/POSTEST-4.jpg', 'POSTEST-4')">
+            <img src="./Quizes/POSTEST-4.jpg" alt="Image 4">
+        </div>
+        <div class="image" onclick="openPopup('./Quizes/PRE-TEST1.jpg', 'PRE-TEST1')">
+            <img src="./Quizes/PRE-TEST1.jpg" alt="Image 4">
+        </div>
+        <div class="image" onclick="openPopup('./Quizes/Lab1.jpg', 'LAB1')">
+            <img src="./Quizes/Lab1.jpg" alt="Image 4">
+        </div>
+        <div class="image" onclick="openPopup('./Quizes/Lab1(2).jpg', 'LAB1(2)')">
+            <img src="./Quizes/Lab1(2).jpg" alt="Image 4">
+        </div>
+        <div class="image" onclick="openPopup('./Quizes/Lab2.jpg', 'LAB2')">
+            <img src="./Quizes/Lab2.jpg" alt="Image 4">
+        </div>
+        <div class="image" onclick="openPopup('./Quizes/Longquiz.jpg', 'Longquiz')">
+            <img src="./Quizes/Longquiz.jpg" alt="Image 4">
+        </div>
+        <div class="image" onclick="openPopup('./Quizes/Midterm.jpg', 'Midterm Exam')">
+            <img src="./Quizes/Midterm.jpg" alt="Image 4">
+        </div>
+        <div class="image" onclick="openPopup('./Quizes/PRETEST2.jpg', 'PRE-TEST 2')">
+            <img src="./Quizes/PRETEST2.jpg" alt="Image 4">
+        </div>
+        <div class="image" onclick="openPopup('./Quizes/PRETEST3.jpg', 'PRE-TEST 3')">
+            <img src="./Quizes/PRETEST3.jpg" alt="Image 4">
+        </div>
+        <div class="image" onclick="openPopup('./Quizes/PRETEST4.jpg', 'PRE-TEST 4')">
+            <img src="./Quizes/PRETEST4.jpg" alt="Image 4">
+        </div>
+        <div class="image" onclick="openPopup('./Quizes/PRETEST5.jpg', 'PRE-TEST 5')">
+            <img src="./Quizes/PRETEST5.jpg" alt="Image 4">
+        </div>
+    </div>
+    </div>
+    
+    <div class="popup" id="popup">
+        <span class="close-btn" onclick="closePopup()">×</span>
+        <div class="popup-content">
+            <img id="popup-img" src="" alt="Popup Image">
+            <div class="description" id="popup-desc"></div>
+        </div>
+    </div>
+    </div>
+
+    <div class="footer">
+        <p> &copy; 2025 All Rights Reserved</p>
+    </div>
+</div>
+
+    <script src="portfolio.js"></script>
+    
+</body>
+</html>

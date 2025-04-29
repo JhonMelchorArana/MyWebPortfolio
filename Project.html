@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project.css">
+    <title>Project</title>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">
+        <img src="./img/jeemlogo.png" alt="Logo">
+    </div>
+
+    <div class="burger" id="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+
+    <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Homepage</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Project.html">Projects</a></li>
+        <li><a href="Quiz.html">Quizzes</a></li>
+        <li><a href="index.html">Contact</a></li>
+    </ul>
+</nav>
+  <div class="prj">
+    <h1>Portfolio Highlights</h1>
+    <div class="projects">
+      <div class="project" onclick="openModal('./project/img1.png')">
+        <img src="./project/img1.png" alt="Project 01">
+        <h3>Project 01</h3>
+        <p>Airline Management System/Booking of flights.</p>
+      </div>
+      <div class="project" onclick="openModal('./project/img2.png')">
+        <img src="./project/img2.png" alt="Project 02">
+        <h3>Project 02</h3>
+        <p>Nail Salon, Apointment System and Showcasing the work of Client.</p>
+      </div>
+      <div class="project" onclick="openModal('./project/img3.jpg')">
+        <img src="./project/img3.jpg" alt="Project 03">
+        <h3>Project 03</h3>
+        <p>Fan/Artist Website NCT group promoting their groups in general.</p>
+      </div>
+      <div class="project" onclick="openModal('./project/lab3.jpg')">
+        <img src="./project/lab3.jpg" alt="Project 03">
+        <h3>Laboratory 3</h3>
+        <p>This a Wikipedia about an artist called billie Eilish</p>
+      </div>
+      <div class="project" onclick="openModal('./project/lab3(2).jpg')">
+        <img src="./project/lab3(2).jpg" alt="Project 03">
+        <h3>Laboratory 3(2)</h3>
+        <p>This Include her Personal Info and Album List connected to Spotify</p>
+      </div>
+      <div class="project" onclick="openModal('./project/lab3(3).jpg')">
+        <img src="./project/lab3(3).jpg" alt="Project 03">
+        <h3>Laboratory 3(3)</h3>
+        <p>It also have a login page that is functionable</p>
+      </div>
+      <div class="project" onclick="openModal('./project/lab(4).jpg')">
+        <img src="./project/lab(4).jpg" alt="Project 03">
+        <h3>Laboratory 3(3)</h3>
+        <p>It also have a Register page that is functionable</p>
+      </div>
+    </div>
+
+  
+    <div class="modal" id="imageModal" onclick="closeModal()">
+      <div class="modal-content" onclick="event.stopPropagation()">
+        <button class="close-btn" onclick="closeModal()">&times;</button>
+        <img id="modalImage" src="" alt="Project Preview">
+      </div>
+    </div>
+
+    <div class="footer">
+      <p> &copy; 2025 All Rights Reserved</p>
+  </div>
+</div>
+
+    <script src="portfolio.js"></script>
+    
+  
+
+</body>
+</html>
